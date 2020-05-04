@@ -7,5 +7,5 @@ def cat_dog(str3):
         if str3[i:i+3] == "dog":
             count_dog += 1
     if count_dog == count_cat:
-        return True
-    return False
+    
+    return count_cat == count_dog
