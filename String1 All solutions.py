@@ -49,5 +49,13 @@ def combo_string(a, b):
   else:
     return a + b + a
   
-  
+#10) Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
+
+def non_start(a, b):
+  return a[1:]+b[1:]
+
+#11) Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
+
+def left2(str):
+  return str[2:]+str[:2]
   
